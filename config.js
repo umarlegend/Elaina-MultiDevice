@@ -47,27 +47,26 @@ let wibh = moment.tz('Asia/Jakarta').format('HH')
 /*============== SOCIAL ==============*/
 
 // kalo ga punya ketik "-" atau biarin aja biar ada creditsnya :v
-global.sig = 'https://instagram.com/Xiao_yan_21' //Link Instagrammu
-global.sgh = 'https://github.com/ImYanXiao' //Link Githubmu
-global.sgc = 'https://chat.whatsapp.com/DyBMXDw1IshFM9z0ZHZNlR'
-global.sdc = '-' //Isi Pake Link Discordmu Kalo Gada Biarin aja
-global.snh = 'https://nhentai.net/g/HaramTod🗿' //Hmmm, Ini boleh kalian isi terserah :v
+global.sig = 'https://instagram.com/dark-umar404' //Link Instagrammu
+global.sgh = 'https://github.com/umar404' //Link Githubmu
+global.sgc = 'https://chat.whatsapp.com/L3jGoTei59SCVCjmv4BhyE'
+global.sdc = '-' //Fill it with your Discord link, if it's not there, just leave it alone
+global.snh = 'https://nhentai.net/g/HaramTod🗿' //Hmmm, you can fill this up it's up to you :v
 
 /*============== PAYMENT ==============*/
-global.pdana = '085736178354' //Nomor Danamu
-global.ppulsa = '085736178354' //Nomor SimCard Yang Kamu Pake
-global.psaweria = 'https://saweria.com/XiaoYan021' //Link Saweriamu Kalo Nggada Ketik - aja
-
-/*============== NOMOR ==============*/
-global.nomorbot = '6281231079387' //Nomor Bot
-global.nomorown = '6285736178354' //Nomor Owner
-global.namebot = 'Elaina BOT' //Nama Bot
-global.nameown = '𝓧𝓲𝓪𝓸 - 𝓨𝓪𝓷' // Nama Owner
+global.pdana = '03475589080' //Your Fund Number
+global.ppulsa = '03475589080' //The SimCard Number You Are Using
+global.psaweria = 'https://www.youtube.com/c/UMARMODS' //If you have a link, please type it 
+/*============== NUMBER==============*/
+global.nomorbot = '488888781888' //owner number
+global.nomorown = '923165123719' //owner number
+global.namebot = 'Boss-Md BOT' //Name Bot
+global.nameown = 'Umar Devil' // Name Owner
 
 
 /*============== STAFF ==============*/
 global.owner = [
-  ['6285736178354', '❦ 𝚇 𝚒 𝚊 𝚘 - 𝚈𝚊𝚗? 🎐', true] //Ganti jd nomormu sama Namamu
+  ['488888781888', '❦ U m a r- Boss? 🎐', true] //Change your number to your name
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = [] // Want some help?
@@ -99,11 +98,11 @@ global.APIKeys = { // APIKey Here
 // Kata APIKEY itu isi dengan apikey lu sendiri, dengan beli ke website itu
 
 /*============== WATERMARK ==============*/
-global.wm = '                「 ᴇʟᴀɪɴᴀ 𝙱𝙾𝚃 汉  」' //Main Watermark
+global.wm = '                「 𝙱𝙾𝚂𝚂-𝙼𝙳 𝙱𝙾𝚃 汉  」' //Main Watermark
 global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘ᴇʟᴀɪɴᴀ - ᴄʜᴀɴ˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
-global.wm3 = '⫹⫺ ᴇʟᴀɪɴᴀ 𝙱𝙾𝚃'
-global.botdate = `⫹⫺ 𝗛𝗮𝗿𝗶: ${week} ${date}`
-global.bottime = `𝗪𝗮𝗸𝘁𝘂 : ${wktuwib}`
+global.wm3 = '⫹⫺ 𝙱𝙾𝚂𝚂-𝙼𝙳 𝙱𝙾𝚃'
+global.botdate = `⫹⫺ 𝐷𝛥𝑌: ${week} ${date}`
+global.bottime = `𝑇𝛪𝛭𝛯 : ${wktuwib}`
 global.titlebot = '🎋 ┊ 𝗥𝗣𝗚 ʙᴏᴛ ᴡʜᴀᴛsᴀᴘᴘ'
 global.author = global.wm
 global.logo = 'https://ibb.co/17RY7x9'
@@ -368,9 +367,9 @@ global.hsquere = ['⛶','❏','⫹⫺']
 
 /*============== STICKER WM ==============*/
 global.stickpack = '.'
-global.stickauth = `☂︎\n𝗘\nl\na\ni\nn\na\n-\n𝗕\n𝗢\n𝗧\n✦\n\n⫹⫺ Whatsapp BOT\nwa.me/${global.nomorbot}`
-global.packname = 'Cʀᴇᴀᴛᴇᴅ Bʏ'
-global.packname2 = 'ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴇʟᴀɪɴᴀ ʙᴏᴛᴢ'
+global.stickauth = `☂︎\nB\nl\nO\nS\nS\n-\nM\nD\n-\n𝑈\n𝛭\n𝛥\n𝑅\n✦\n\n⫹⫺ Umar Whatsapp BOT\nwa.me/${global.nomorbot}`
+global.packname = 'Cʀᴇᴀᴛᴇᴅ Bʏ Uᴍᴀʀ'
+global.packname2 = 'ᴄʀᴇᴀᴛᴇᴅ ʙʏ ʙᴏꜱꜱ-ᴍᴅ ʙᴏᴛᴢ'
 
 global.multiplier = 38 // The higher, The harder levelup
 
@@ -418,7 +417,7 @@ global.rpg = {
   }
 }
 
-//------ JANGAN DIUBAH -----
+//------ DONT CHANGE-----
 let file = fileURLToPath(import.meta.url)
 watchFile(file, () => {
   unwatchFile(file)
