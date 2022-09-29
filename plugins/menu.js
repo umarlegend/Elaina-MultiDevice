@@ -34,7 +34,7 @@ const defaultMenu = {
 │╰────────────────···
 ┠─────═[ INFO BOT ]═─────⋆
 │╭────────────────···
-┴│☂︎ *Nama Bot:* %me
+┴│☂︎ *Name Bot:* %me
 ⬡│☂︎ *Mode:* %mode
 ⬡│☂︎ *Prefix:* [ *%_p* ]
 ⬡│☂︎ *Baileys:* Multi Device
@@ -301,30 +301,30 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command}) => {
   },
 ]
 
-let tek = `✧────···[ Dashboard ]···────✧
+let tek = `✧────···[ Dashboard By Umar]···────✧
 *${ucapan()} ${conn.getName(m.sender)}*
 ╭━━━━━━━━━━━━━━━━┈─✧
 ┴
-│⬡ Aktif selama ${mpt}
-│⬡ Baterai ${conn.battery != undefined ? `${conn.battery.value}% ${conn.battery.live ? '🔌 pengisian' : ''}` : 'tidak diketahui'}
+│⬡ Active During ${mpt}
+│⬡ Battery 🔋 ${conn.battery != undefined ? `${conn.battery.value}% ${conn.battery.live ? '🔌 pengisian' : ''}` : 'Unknown'}
 │⬡ Prefix : [ ${_p} ]
-│⬡ *${Object.keys(global.db.data.users).length}* Pengguna
-│⬡ *${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}* Chat Terbanned
-│⬡ *${Object.entries(global.db.data.users).filter(user => user[1].banned).length}* Pengguna Terbanned
+│⬡ *${Object.keys(global.db.data.users).length}* User 👤 
+│⬡ *${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}* Chas Banned
+│⬡ *${Object.entries(global.db.data.users).filter(user => user[1].banned).length}* Users Banned
 ┬
 ├━━━━━━━━━━━━━━━━┈─⋆
-│ ▸ *ᴀᴜᴛʜᴏʀ :* ʙᴏᴄʜɪʟɢᴀᴍɪɴɢ
-┴ ▸ *ᴏᴡɴᴇʀ :* ɪᴍ-ʏᴀɴxɪᴀᴏ
+│ ▸ *ᴀᴜᴛʜᴏʀ :* umar404
+┴ ▸ *ᴏᴡɴᴇʀ :* 𝐵𝛩𝑆𝑆 𝑈𝛭𝛥𝑅
 ✧
-┬ 📌 𝗣𝗶𝗻𝗻𝗲𝗱 :
-│ ʙᴇʀɪ ᴊᴇᴅᴀ ʏᴀʜ ᴋᴀᴋ ^ω^
+┬ 📌 𝘼𝙩𝙩𝙚𝙣𝙩𝙞𝙤𝙣 𝙋𝙡𝙚𝙖𝙨𝙚 😇:
+│ʜᴇʏ ʟᴏʟ ɢɪᴠᴇ ᴍᴇ ᴀ ʙʀᴇᴀᴋ 🥲 ^ω^
 ╰━━━━━━━━━━━━━━━━┈─◂`
 const listMessage = {
   text: tek,
   footer: wm2,
   mentions: await conn.parseMention(tek),
   title: ``,
-  buttonText: `Klik Disini ⎙`, 
+  buttonText: `Boss Click Here⎙`, 
   sections
 }
   if (teks == '404') {
@@ -471,7 +471,7 @@ const listMessage = {
 
     surface : 1,
 
-    message: `Hai Kak ${name}!`, 
+    message: `Hi Lol ${name}!`, 
 
     orderTitle: `▮Menu ▸`,
 
@@ -519,7 +519,7 @@ const listMessage = {
 
     }
 
-    conn.reply(m.chat, '*Tunggu Sebentar Kak. . .*', ftrol) 
+    conn.reply(m.chat, '*Wait a minute Sis 😹. . .*', ftrol) 
 
     
     //------------------< MENU >----------------
@@ -578,7 +578,7 @@ const listMessage = {
                 {
                     urlButton: {
                         displayText: `${namebot}`,
-                        url: 'https://github.com/ImYanXiao/Elaina-MultiDevice'
+                        url: 'https://github.com/umar404/Boss-Md-Bot'
                     }
                 },
                 {
@@ -601,7 +601,7 @@ const listMessage = {
                 },
                 {
                     quickReplyButton: {
-                        displayText: 'Donasi💵',
+                        displayText: 'Donate 💵',
                         id: '.donasi'
                     }
                 },
@@ -611,9 +611,9 @@ const listMessage = {
         
         //MAIN MENU
       /*conn.sendButton(m.chat, `*${ucapan()}, ${name} 👋*`, text.trim(), await genProfile(conn, m), [['Speedtest', _p + 'speedtest'], ['Owner', _p + 'owner']], false, { quoted: fkon, contextInfo: { externalAdReply: { showAdAttribution: true,
-    mediaUrl: "https://Instagram.com/Xiao_yan_21",
+    mediaUrl: "https://Instagram.com/dark-umar404",
     mediaType: "VIDEO",
-    description: "https://Instagram.com/Xiao_yan_21", 
+    description: "https://Instagram.com/dark-umar404", 
     title: wm,
     body: 'List Menu?',
     thumbnail: thumb,
@@ -622,7 +622,7 @@ const listMessage = {
 } })*/
 
     //------------------- 2BUTTON VID
-   // conn.sendMessage(m.chat, { video: { url: 'https://telegra.ph/file/c82d5c358495e8ef15916.mp4' }, gifPlayback: true, gifAttribution: ~~(Math.random() * 2), caption: text.trim(), footer: 'ᴍᴀᴅᴇ ᴡɪᴛʜ ❤ ʙʏ ɪᴍ-ʏᴀɴxɪᴀᴏ', templateButtons: [{ quickReplyButton: { displayText: 'Speedtest⚡', id: `${_p}speedtest` }}, { quickReplyButton: { displayText: 'Owner🎀', id: `${_p}owner` }} ] })
+   // conn.sendMessage(m.chat, { video: { url: 'https://telegra.ph/file/c82d5c358495e8ef15916.mp4' }, gifPlayback: true, gifAttribution: ~~(Math.random() * 2), caption: text.trim(), footer: 'ᴍᴀᴅᴇ ᴡɪᴛʜ ❤ ʙʏ ᴜᴍᴀʀ', templateButtons: [{ quickReplyButton: { displayText: 'Speedtest⚡', id: `${_p}speedtest` }}, { quickReplyButton: { displayText: 'Owner🎀', id: `${_p}owner` }} ] })
     
     //------------------- Payment MENU
     /*await conn.relayMessage(m.chat,  {
@@ -640,7 +640,7 @@ const listMessage = {
       
     //------------------- 2BUTTON LOCATION
     conn.sendButton(m.chat, `${ucapan()}﹗`, text.trim(), `${timeimg()}`, [
-      ['🎏 ᴍᴇɴᴜ', `${_p}menu`],
+      ['😹 ᴍᴇɴᴜ', `${_p}menu`],
       ['⚡ sᴘᴇᴇᴅᴛᴇsᴛ', `${_p}speedtest`]
     ], m, {asLocation: true})
   } catch (e) {
@@ -683,7 +683,7 @@ function clockStringP(ms) {
 }
 function ucapan() {
   const time = moment.tz('Asia/Jakarta').format('HH')
-  let res = "Kok Belum Tidur Kak? 🥱"
+  let res = "Why haven't you slept yet? 🥱😳"
   if (time >= 4) {
     res = "Pagi Lord 🌄"
   }
