@@ -66,7 +66,7 @@ global.nameown = 'Umar Devil' // Name Owner
 
 /*============== STAFF ==============*/
 global.owner = [
-  ['488888781888', '❦ U m a r- Boss? 🎐', true] //Change your number to your name
+  ['+48 888 781 888', '❦ U m a r- Boss? 🎐', true], //Change your number to your name
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = [] // Want some help?
