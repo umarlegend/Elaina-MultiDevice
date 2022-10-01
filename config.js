@@ -99,11 +99,11 @@ global.APIKeys = { // APIKey Here
 
 /*============== WATERMARK ==============*/
 global.wm = '                「 𝙱𝙾𝚂𝚂-𝙼𝙳 𝙱𝙾𝚃 汉  」' //Main Watermark
-global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘ᴇʟᴀɪɴᴀ - ᴄʜᴀɴ˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
+global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘ᴜᴍᴀʀ- ᴅᴇᴠIʟ˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
 global.wm3 = '⫹⫺ 𝙱𝙾𝚂𝚂-𝙼𝙳 𝙱𝙾𝚃'
 global.botdate = `⫹⫺ 𝐷𝛥𝑌: ${week} ${date}`
 global.bottime = `𝑇𝛪𝛭𝛯 : ${wktuwib}`
-global.titlebot = '🎋 ┊ 𝗥𝗣𝗚 ʙᴏᴛ ᴡʜᴀᴛsᴀᴘᴘ'
+global.titlebot = '🎋 ┊ ᴜᴍᴀʀ ʙᴏᴛ ᴡʜᴀᴛsᴀᴘᴘ'
 global.author = global.wm
 global.logo = 'https://ibb.co/17RY7x9'
 
